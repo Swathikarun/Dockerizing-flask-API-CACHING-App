@@ -23,6 +23,8 @@ Here you need to build images for the 3 tiers Frontend, Backend and API-services
 
  1. Building image for Frontend
  
+    Navigate to the directory "ipgeolocation-front" and run the below command
+ 
   ```
   docker build -t swathikarun/ipgeolocation-front:v1 .
   ```
@@ -39,6 +41,8 @@ Here you need to build images for the 3 tiers Frontend, Backend and API-services
  ```
 
 2. Building image for API-Service
+
+   Navigate to the directory "ipgeolocation-api" and run the below command
 
  ```
   docker build -t swathikarun/ipgeolocation-api:v1 .
